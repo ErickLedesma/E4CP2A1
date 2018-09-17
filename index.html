@@ -10,18 +10,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js“></script>
     <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js”></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>          
+      <li class="nav-item active">
+        <a class="nav-link" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="noticias.html">Noticias</a>
+      </li>
+    </ul>
+  </nav>
+
   <div class="conteiner girl">
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="noticias.html">Noticias</a> </li>
-      </ul>
-    </div>
-    <div class="row flex-parent">
+      <div class="row flex-parent">
       <div class="col-8 col-sm-8 offset-sm-1 col-md-8 offset-md-1 col-lg-8 offset-lg-1 text-center">
         <h1 class="display-4 text-primary">Fundación Niño y Cancer</h1>
       </div>
@@ -49,7 +58,7 @@
   </div>
 
   <div class="row pt-2">
-    <div class="col-sm-4 col-md-3 offset-md-1">
+    <div class="col-5 offset-1 col-sm-5 offset-sm-1 col-md-3 offset-md-1">
       <div class="thumbnail text-center">
         <img src="images/manual_padres.jpg" class="img-responsive">
         <div class="caption text-left py-2">
@@ -59,7 +68,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4 col-md-3 offset-md-1">
+    <div class="col-5 offset-1 col-sm-5 offset-sm-1 col-md-3 offset-md-1">
       <div class="thumbnail text-center">
         <img src="images/coronas.jpg" class="img-responsive">
         <div class="caption text-left py-2">
@@ -71,7 +80,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-4 col-md-3 offset-md-1">
+    <div class="col-5 offset-1 col-sm-5 offset-sm-1 col-md-3 offset-md-1">
       <div class="thumbnail text-center">
         <img src="images/cuadro_inicio.gif" class="img-responsive">
         <div class="caption text-left py-2">
@@ -85,21 +94,28 @@
     </div>
   </div>
 
-  <footer class="row bg-secondary">
-    <div class="col-md-3 offset-md-1 text-white">
+  <footer class="row bg-secondary py-4">
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-1 col-lg-3 offset-lg-1 text-white">
       <p>Teléfono: 22170821 - 22170811</p>
       <p>Dirección: Tupungato 10070 Vitacura, Santiago de Chile</p>
       <p>fundacion@ninoycancer.cl</p>
     </div>
-    <div class="col-md-3">
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-0 col-lg-3 offset-lg-0">
       <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+          <iframe class="embed-responsive-item" src="https://goo.gl/maps/DQ648wcWx2K2"></iframe>
       </div>
-  </div>
-    <div class="col-md-3 text-white">
-      <p>Formulario de Contacto</p>
+    </div>
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-0 col-lg-3 offset-lg-0 text-white">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Dirección de Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa email">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
     </div>
   </footer>
+  
 </body>
 </html>
 

@@ -13,19 +13,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="noticias.html">Noticias</a> </li>
-      </ul>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4 offset-md-4 text-center">
-            <h1 class="display-4 py-4">NOTICIAS</h1>
-        </div>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>          
+      <li class="nav-item active">
+        <a class="nav-link" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="noticias.html">Noticias</a>
+      </li>
+    </ul>
+  </nav>
+    
+  <div class="row">
+      <div class="col-md-4 offset-md-4 text-center">
+          <h1 class="display-4 py-4">NOTICIAS</h1>
+      </div>
+  </div>
 
     <div class="row">
       <div class="col-md-6 offset-md-3">
@@ -74,12 +80,28 @@
       </div>
     </div>
   
-
-  </div>
-
-
-
-</body>
+  <footer class="row bg-secondary py-4">
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-1 col-lg-3 offset-lg-1 text-white">
+      <p>Teléfono: 22170821 - 22170811</p>
+      <p>Dirección: Tupungato 10070 Vitacura, Santiago de Chile</p>
+      <p>fundacion@ninoycancer.cl</p>
+    </div>
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-0 col-lg-3 offset-lg-0">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://goo.gl/maps/DQ648wcWx2K2"></iframe>
+      </div>
+    </div>
+    <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-3 offset-md-0 col-lg-3 offset-lg-0 text-white">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Dirección de Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa email">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+  </footer>
+  </body>
 </html>
 
 
